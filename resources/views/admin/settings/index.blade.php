@@ -13,12 +13,12 @@
         <div class="col-md-3">
             <div class="tile p-0">
                 <ul class="nav flex-column nav-tabs user-tabs">
-                    <li class="nav-item"><a class="nav-link active" href="#general" data-toggle="tab">General</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#site-logo" data-toggle="tab">Site Logo</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#footer-seo" data-toggle="tab">Footer &amp; SEO</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#general" data-toggle="tab">基本设置</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#site-logo" data-toggle="tab">网站Logo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#footer-seo" data-toggle="tab">底部版权</a></li>
                     <li class="nav-item"><a class="nav-link" href="#social-links" data-toggle="tab">Social Links</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#analytics" data-toggle="tab">Analytics</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#payments" data-toggle="tab">Payments</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#analytics" data-toggle="tab">网站分析</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#payments" data-toggle="tab">支付设置</a></li>
                 </ul>
             </div>
         </div>

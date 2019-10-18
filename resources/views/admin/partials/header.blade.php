@@ -1,5 +1,5 @@
 <header class="app-header">
-    <a class="app-header__logo" href="#">{{ config('app.name') }}</a>
+    <a class="app-header__logo" href="#">网站管理系统</a>
     <a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
     <ul class="app-nav">
         <li class="app-search">
@@ -12,7 +12,7 @@
             <a class="app-nav__item" href="#" data-toggle="dropdown" aria-label="Show notifications"><i class="fa fa-bell-o fa-lg"></i></a>
             <ul class="app-notification dropdown-menu dropdown-menu-right">
                 <li class="app-notification__title">
-                    You have 4 new notifications.
+                    你有4个通知.
                 </li>
                 <div class="app-notification__content">
                     <li>
@@ -27,7 +27,7 @@
                                 <p class="app-notification__message">
                                     Mail server not working
                                 </p>
-                                <p class="app-notification__meta">5 min ago</p>
+                                <p class="app-notification__meta">5分钟前</p>
                             </div>
                         </a>
                     </li>
@@ -43,7 +43,7 @@
                                 <p class="app-notification__message">
                                     Transaction complete
                                 </p>
-                                <p class="app-notification__meta">2 days ago</p>
+                                <p class="app-notification__meta">2天前</p>
                             </div>
                         </a>
                     </li>
@@ -58,13 +58,13 @@
             <a class="app-nav__item" href="#" data-toggle="dropdown" aria-label="Open Profile Menu"><i class="fa fa-user fa-lg"></i></a>
             <ul class="dropdown-menu settings-menu dropdown-menu-right">
                 <li>
-                    <a class="dropdown-item" href="{{ route('admin.settings') }}"><i class="fa fa-cog fa-lg"></i> Settings</a>
+                    <a class="dropdown-item" href="{{ route('admin.settings') }}"><i class="fa fa-cog fa-lg"></i> 网站设置</a>
                 </li>
                 <li>
-                    <a class="dropdown-item" href="page-user.html"><i class="fa fa-user fa-lg"></i> Profile</a>
+                    <a class="dropdown-item" href="page-user.html"><i class="fa fa-user fa-lg"></i> 会员中心</a>
                 </li>
                 <li>
-                    <a class="dropdown-item" href="{{ route('admin.logout') }}"><i class="fa fa-sign-out fa-lg"></i> Logout</a>
+                    <a class="dropdown-item" href="{{ route('admin.logout') }}"><i class="fa fa-sign-out fa-lg"></i> 退出登录</a>
                     <!-- <a class="dropdown-item" href="page-login.html"><i class="fa fa-sign-out fa-lg"></i> Logout</a> -->
                 </li>
             </ul>

@@ -27,7 +27,7 @@ class CategoryController extends BaseController
     public function index()
     {
         $categories = $this->categoryRepository->listCategories();
-        $this->setPageTitle('Categories', 'List of all categories');
+        $this->setPageTitle('Categories', '分类列表');
         return view('admin.categories.index', compact('categories'));
     }
     /**
@@ -36,7 +36,7 @@ class CategoryController extends BaseController
     public function create()
     {
         $categories = $this->categoryRepository->treeList();
-        $this->setPageTitle('Categories', 'Create Category');
+        $this->setPageTitle('Categories', '创建分类');
          // dd($categories);
         return view('admin.categories.create', compact('categories'));
     }
