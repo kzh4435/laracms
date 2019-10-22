@@ -18,7 +18,7 @@ class AttributeValuesTableSeeder extends Seeder
         foreach ($sizes as $size)
         {
             AttributeValue::create([
-                'attribute_id'      =>  3,
+                'attribute_id'      =>  1,
                 'value'             =>  $size,
                 'price'             =>  null,
             ]);
@@ -27,7 +27,7 @@ class AttributeValuesTableSeeder extends Seeder
         foreach ($colors as $color)
         {
             AttributeValue::create([
-                'attribute_id'      =>  4,
+                'attribute_id'      =>  2,
                 'value'             =>  $color,
                 'price'             =>  null,
             ]);

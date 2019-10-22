@@ -53,8 +53,14 @@
     <li>
     <a class="app-menu__item {{ Route::currentRouteName() == 'admin.brands.index' ? 'active' : '' }}" href="{{ route('admin.brands.index') }}">
         <i class="app-menu__icon fa fa-briefcase"></i>
-        <span class="app-menu__label">幻灯</span>
+        <span class="app-menu__label">品牌</span>
     </a>
-</li>
+    </li>
+   <li>
+            <a class="app-menu__item {{ Route::currentRouteName() == 'admin.products.index' ? 'active' : '' }}" href="{{ route('admin.products.index') }}">
+                <i class="app-menu__icon fa fa-shopping-bag"></i>
+                <span class="app-menu__label">产品</span>
+            </a>
+        </li>
     </ul>
 </aside>
