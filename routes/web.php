@@ -26,7 +26,7 @@ Route::group(['middleware' => ['auth']], function () {
 });
 Auth::routes();
 
-
+Route::get('account/orders', 'Site\AccountController@getOrders')->name('account.orders');
 // Route::view('/admin', 'admin.dashboard.index');
 
 require 'admin.php';
